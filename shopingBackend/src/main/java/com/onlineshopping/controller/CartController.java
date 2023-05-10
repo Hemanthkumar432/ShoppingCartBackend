@@ -124,7 +124,6 @@ public class CartController {
 		}
 		
 		this.cartDao.delete(cart);
-		
 		return new ResponseEntity("SUCCESS", HttpStatus.OK);
 		
 	}
