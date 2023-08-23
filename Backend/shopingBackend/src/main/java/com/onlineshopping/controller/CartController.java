@@ -29,7 +29,7 @@ import com.onlineshopping.model.User;
 
 @RestController
 @RequestMapping("api/user/")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:3000")
 public class CartController {
 	
 	@Autowired
