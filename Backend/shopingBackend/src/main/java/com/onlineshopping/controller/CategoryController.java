@@ -15,7 +15,7 @@ import com.onlineshopping.model.Category;
 
 @RestController
 @RequestMapping("api/category")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3000/")
 public class CategoryController {
 
 	@Autowired

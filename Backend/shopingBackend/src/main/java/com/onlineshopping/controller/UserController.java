@@ -19,7 +19,7 @@ import com.onlineshopping.model.User;
 
 @RestController
 @RequestMapping("api/user")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3000/")
 public class UserController {
 	
 	@Autowired
