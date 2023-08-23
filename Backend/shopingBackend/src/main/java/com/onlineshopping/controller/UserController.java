@@ -19,7 +19,7 @@ import com.onlineshopping.model.User;
 
 @RestController
 @RequestMapping("api/user")
-@CrossOrigin(origins = "https://front-end-shopping.vercel.app")
+@CrossOrigin(origins = "*")
 public class UserController {
 	
 	@Autowired
