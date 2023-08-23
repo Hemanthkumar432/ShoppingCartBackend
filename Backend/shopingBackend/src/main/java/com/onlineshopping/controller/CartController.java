@@ -29,7 +29,7 @@ import com.onlineshopping.model.User;
 
 @RestController
 @RequestMapping("api/user/")
-@CrossOrigin(origins = "https://front-end-shopping.vercel.app")
+@CrossOrigin(origins = "http://localhost:3000")
 public class CartController {
 	
 	@Autowired

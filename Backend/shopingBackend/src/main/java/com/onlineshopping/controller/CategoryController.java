@@ -15,7 +15,7 @@ import com.onlineshopping.model.Category;
 
 @RestController
 @RequestMapping("api/category")
-@CrossOrigin(origins = "https://front-end-shopping.vercel.app")
+@CrossOrigin(origins = "http://localhost:3000")
 public class CategoryController {
 
 	@Autowired
