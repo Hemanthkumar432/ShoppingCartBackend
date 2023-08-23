@@ -29,7 +29,7 @@ import com.onlineshopping.utility.StorageService;
 
 @RestController
 @RequestMapping("api/product")
-@CrossOrigin(origins = "https://front-end-shopping.vercel.app/")
+@CrossOrigin(origins = "https://front-end-shopping.vercel.app")
 public class ProductController {
 	
 	@Autowired
